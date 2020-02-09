@@ -1,0 +1,24 @@
+body {
+  background-color: lightseagreen;
+
+  font-family: 	sans-serif;	
+}
+
+h1 {
+ 	font-family: sans-serif	;
+}
+p {
+  
+}
+
+img {
+  border: solid 10px;
+}
+figure {
+  background-color: lightblue;
+}
+
+figcaption {
+font-family: 	monospace;	
+
+}
