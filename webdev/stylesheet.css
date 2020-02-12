@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+
+
+	color: orangered; 
+  font-family: 	monospace;	
+}
+a{
+	color: orangered;
+	text-decoration: underline dashed;
+}
+
+a:hover{
+	color: white;
+	text-decoration:underline;
+}
+
+img{
+	border: 0px;
+	outline: 0px;
+}
+h1 {
+ 	font-family: sans-serif	;
+}
+p {
+  
+}
+
+figure {
+  background-color: lightblue;
+}
+
+figcaption {
+font-family: 	monospace;	
+
+}
