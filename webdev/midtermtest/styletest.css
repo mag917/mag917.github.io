@@ -1,0 +1,82 @@
+body {
+ background-color: gray;
+ color: white;
+ font-family: sans-serif;
+}
+
+.article{
+	color: white;
+ font-family: sans-serif;
+ display:flex;
+ justify-content: center;
+ width:60vw
+}
+
+
+
+h2{
+	color: red;
+}
+
+
+.tutorial1{
+
+ color: black;
+ /* set the transition property you want to animate 
+ in the establishing css code here. */
+ transition-property: color;
+ transition-delay: 20s;*/
+
+ transition-duration: 10s;
+}
+
+a{
+	color: lightblue;
+}
+
+.vanish10{
+ /*display: grid;*/
+
+ color: gray;
+ /* set the transition property you want to animate 
+ in the establishing css code here. */
+ transition-property: color;
+ /*transition-delay: 10s;*/
+ transition-delay:30s;
+ transition-duration: 5s;
+
+
+}
+
+.vanish1{
+ /*display: grid;*/
+
+ color: gray;
+ /* set the transition property you want to animate 
+ in the establishing css code here. */
+ transition-property: color white;
+ /*transition-delay: 10s;*/
+ transition-duration: 1s;
+}
+
+.flip{
+	-webkit-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	text-align: right;
+}
+
+
+.flip:hover{
+	transition: -webkit-transform  1s;
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);
+	text-align: left;
+}
+
+
